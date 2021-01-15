@@ -33,10 +33,10 @@ def menu():
     print("4:french fries               Rs 60")
     print("5:pizza                      Rs 100")
     print("6:Sandwich                   Rs 80")
-    print("7:capichino                  Rs 130")
+    print("7:capichino                  Rs 80")
     print("8:Masala french fries        Rs 70")
     print("9:icecream (scops)           Rs 50 per/-")
-    print("10:soda                      Rs 20")
+    print("10:soda                      Rs 10")
     print("00.exit")
     print("\n*********************************************\n")
 
