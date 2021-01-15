@@ -55,6 +55,7 @@ while cmd=="run":
         t=t+cost
         str=str+ f"hot coffee               {hot_coffee.rate} X {q}     Rs {cost}\n"
         print(str)
+        print("Total So Far :",t)
 
     elif order ==2:
         q=int(input("Number of ingredients : "))
@@ -62,6 +63,8 @@ while cmd=="run":
         t=t+cost        
         str=str+ f"cold coffee              {cold_coffee.rate} X {q}    Rs {cost}\n"
         print(str)
+        print("Total So Far :",t)
+
 
     
 
@@ -70,6 +73,8 @@ while cmd=="run":
         cost=cold_coffee_icecream.calculate(q)
         t=t+cost        
         print(str)
+        print("Total So Far :",t)
+
 
         
         str=str+ f"cold_coffee_icecream     {cold_coffee_icecream.rate} X {q}    Rs {cost}\n"
@@ -79,6 +84,8 @@ while cmd=="run":
         t=t+cost        
         str=str+ f"french_fries             {french_fries.rate} X {q}    Rs {cost}\n"
         print(str)
+        print("Total So Far :",t)
+
    
     elif order ==5:
         q=int(input("Number of ingredients : "))
@@ -86,6 +93,7 @@ while cmd=="run":
         t=t+cost        
         str=str+ f"pizza                    {pizza.rate} X {q}    Rs {cost}\n"
         print(str)
+        print("Total So Far :",t)
 
     elif order ==6:
         q=int(input("Number of ingredients : "))
@@ -93,6 +101,7 @@ while cmd=="run":
         t=t+cost        
         str=str+ f"Sandwich                 {Sandwich.rate} X {q}    Rs {cost}\n"
         print(str)
+        print("Total So Far :",t)
 
     elif order ==7:
         q=int(input("Number of ingredients : "))
@@ -100,6 +109,7 @@ while cmd=="run":
         t=t+cost        
         str=str+ f"capichino                {capichino.rate} X {q}    Rs {cost}\n"
         print(str)
+        print("Total So Far :",t)
     
     elif order ==8:
         q=int(input("Number of ingredients : "))
@@ -107,6 +117,7 @@ while cmd=="run":
         t=t+cost        
         str=str+ f" Masala_french_fries     {Masala_french_fries.rate} X {q}    Rs {cost}\n"
         print(str)
+        print("Total So Far :",t)
     
     elif order ==9:
         q=int(input("Number of ingredients : "))
@@ -114,13 +125,15 @@ while cmd=="run":
         t=t+cost        
         str=str+ f"icecream_scops           {icecream_scops.rate} X {q}    Rs {cost}\n"
         print(str)
-    
+        print("Total So Far :",t)
+
     elif order ==10:
         q=int(input("Number of ingredients : "))
         cost=soda.calculate(q)
         t=t+cost        
         str=str+ f"soda                     {soda.rate} X {q}    Rs {cost}\n"
         print(str)
+        print("Total So Far :",t)
 
     elif order ==00:
         print("\nYour Bill  :\n")
