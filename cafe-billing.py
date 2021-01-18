@@ -147,7 +147,7 @@ while cmd=="run":
     
 
     else:
-        print("Invalid code ")
+        print("You Entered Wrong Choce ")
 
         
 
