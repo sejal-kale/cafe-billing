@@ -27,7 +27,7 @@ soda=Food("soda",10,20)
 def menu():
     print("\n*****WELCOME MAGIC CAFE*****\n")
 
-    print("\n1:Hot coffee         `     Rs 70")
+    print("\n1:Hot coffee         `     Rs 80")
     print("2:cold coffee                Rs 100")
     print("3:cold coffee (ice cream)    Rs 120")
     print("4:french fries               Rs 60")
@@ -147,7 +147,7 @@ while cmd=="run":
     
 
     else:
-        print("Invalid code ")
+        print("You Entered Wrong Choce ")
 
         
 
